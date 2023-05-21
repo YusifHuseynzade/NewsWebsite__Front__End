@@ -24,8 +24,8 @@
 .header .navbar {
   height: 75px;
   display: flex;
-  margin-left: 13.5%;
-  margin-right: 12.5%;
+  margin-left: 13%;
+  margin-right: 13%;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
@@ -33,7 +33,6 @@
   width: 120px;
 }
 .header .navbar__menu {
-  margin-left: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   margin-top: 0;
@@ -170,10 +169,10 @@
   background-size: cover;
 }
 .footer .container__footer {
-  padding-top: 180px;
+  padding-top: 60px;
   padding-bottom: 60px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 13%;
+  margin-right: 13%;
 }
 .footer .container__copyrights {
   padding-top: 26px;
@@ -312,6 +311,344 @@
 }
 .footer .padding__right__left {
   padding: 0 25px;
+}
+
+.feature__post__area {
+  position: relative;
+}
+.feature__post__area .container__feature {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+.feature__post__area .img__position {
+  overflow: hidden;
+  min-height: 465px;
+  position: relative;
+  background-position: 50% 50%;
+  transform: scale(1);
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.feature__post__area .img__position:hover {
+  transform: scale(1.1);
+}
+.feature__post__area .right__content {
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  transform: scale(1);
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.feature__post__area .right__content:hover {
+  transform: scale(1.1);
+}
+.feature__post__area .right__content::before {
+  content: "";
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 10%, rgba(0, 0, 0, 0.9) 100%);
+}
+.feature__post__area .right__img__size {
+  display: block;
+  width: 100%;
+}
+.feature__post__area .right__content__top {
+  font-family: "Poppins", sans-serif;
+  padding: 30px;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  display: block;
+}
+.feature__post__area .right__content__top .post__badge {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  border: none;
+  font-size: 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #FE4F70, #FFA387, #FFA387, #FE4F70);
+  overflow: hidden;
+  background-size: 200%;
+  background-position: left;
+  line-height: 20px;
+  padding: 5px 5px;
+  transition: 0.35s;
+  cursor: pointer;
+}
+.feature__post__area .right__content__top .post__badge:hover {
+  background-position: right;
+}
+.feature__post__area .right__content__top .post__title {
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.feature__post__area .right__content__top .post__author, .feature__post__area .right__content__top .post__date, .feature__post__area .right__content__top .post__view {
+  line-height: 20px;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: white;
+  border: 0;
+  margin-right: 5px;
+  transition: 0.35s;
+}
+.feature__post__area .right__content__top .post__author:hover, .feature__post__area .right__content__top .post__date:hover, .feature__post__area .right__content__top .post__view:hover {
+  background-color: #f73357;
+}
+.feature__post__area .right__content__top .post__author a, .feature__post__area .right__content__top .post__date a, .feature__post__area .right__content__top .post__view a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+.feature__post__area .right__content__bottom {
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  display: block;
+}
+.feature__post__area .right__content__bottom h2 {
+  line-height: 20px;
+}
+.feature__post__area .right__content__bottom .post__badge {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  border: none;
+  font-size: 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #FE4F70, #FFA387, #FFA387, #FE4F70);
+  overflow: hidden;
+  background-size: 200%;
+  background-position: left;
+  line-height: 10px;
+  padding: 5px 5px;
+  transition: 0.35s;
+  cursor: pointer;
+}
+.feature__post__area .right__content__bottom .post__badge:hover {
+  background-position: right;
+}
+.feature__post__area .right__content__bottom .post__title {
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.feature__post__area .right__content__bottom .post__author, .feature__post__area .right__content__bottom .post__date, .feature__post__area .right__content__bottom .post__view {
+  line-height: 10px;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: white;
+  border: 0;
+  margin-right: 5px;
+  transition: 0.35s;
+}
+.feature__post__area .right__content__bottom .post__author:hover, .feature__post__area .right__content__bottom .post__date:hover, .feature__post__area .right__content__bottom .post__view:hover {
+  background-color: #f73357;
+}
+.feature__post__area .right__content__bottom .post__author a, .feature__post__area .right__content__bottom .post__date a, .feature__post__area .right__content__bottom .post__view a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+.feature__post__area .post__content {
+  font-family: "Poppins", sans-serif;
+  padding: 30px;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  display: block;
+}
+.feature__post__area .post__content .post__badge {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  border: none;
+  font-size: 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #FE4F70, #FFA387, #FFA387, #FE4F70);
+  overflow: hidden;
+  background-size: 200%;
+  background-position: left;
+  line-height: 30px;
+  padding: 5px 5px;
+  transition: 0.35s;
+  cursor: pointer;
+}
+.feature__post__area .post__content .post__badge:hover {
+  background-position: right;
+}
+.feature__post__area .post__content .post__title {
+  font-size: 26px;
+  line-height: 32px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.feature__post__area .post__content .post__author, .feature__post__area .post__content .post__date, .feature__post__area .post__content .post__view {
+  line-height: 30px;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: white;
+  border: 0;
+  margin-right: 5px;
+  transition: 0.35s;
+}
+.feature__post__area .post__content .post__author:hover, .feature__post__area .post__content .post__date:hover, .feature__post__area .post__content .post__view:hover {
+  background-color: #f73357;
+}
+.feature__post__area .post__content .post__author a, .feature__post__area .post__content .post__date a, .feature__post__area .post__content .post__view a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.latest__news {
+  position: relative;
+}
+.latest__news .container__latest__news {
+  padding-top: 10px;
+  padding-bottom: 60px;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+.latest__news .block__title {
+  border-bottom: 2px dotted #f73357;
+  font-size: 14px;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin: 0 0 30px;
+}
+.latest__news .block__title span {
+  left: -1%;
+  background-color: #f73357;
+  color: #fff;
+  line-height: 38px;
+  padding: 10px 15px;
+  top: 1px;
+  border-radius: 10px 10px 0 0px;
+  position: relative;
+}
+.latest__news .latest__content {
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  opacity: 1;
+  border-radius: 6px;
+  transform: scale(1);
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.latest__news .latest__content:hover {
+  transform: scale(1.1);
+  opacity: 0.85;
+}
+.latest__news .news__img {
+  display: block;
+  width: 100%;
+}
+.latest__news .position__badge {
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  top: 0;
+}
+.latest__news .position__badge h2 {
+  line-height: 20px;
+}
+.latest__news .position__badge .post__badge {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  border: none;
+  font-size: 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #FE4F70, #FFA387, #FFA387, #FE4F70);
+  overflow: hidden;
+  background-size: 200%;
+  background-position: left;
+  line-height: 10px;
+  padding: 5px 5px;
+  transition: 0.35s;
+  cursor: pointer;
+}
+.latest__news .position__badge .post__badge:hover {
+  background-position: right;
+}
+.latest__news .post__author {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  line-height: 20px;
+  text-decoration: none;
+  background: #f73357;
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: white;
+  border: 0;
+  margin-right: 5px;
+  transition: 0.35s;
+}
+.latest__news .post__author:hover {
+  background-color: #f73357;
+}
+.latest__news .post__author a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+}
+.latest__news .post__title {
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+  font-weight: 700;
+}
+.latest__news .post__date, .latest__news .post__view {
+  line-height: 20px;
+  text-decoration: none;
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: rgb(112, 112, 112);
+  border: 0;
+  margin-right: 5px;
+  transition: 0.35s;
+}
+.latest__news .post__date a, .latest__news .post__view a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+  font-weight: 600;
+  font-size: 13px;
 }
 
 * {
