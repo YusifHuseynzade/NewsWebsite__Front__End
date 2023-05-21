@@ -1248,6 +1248,236 @@
   background-position: right;
 }
 
+.other__news {
+  position: relative;
+}
+.other__news .container__other__news {
+  padding-bottom: 40px;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+.other__news .block__title__travel {
+  border-bottom: 2px dotted #4258fe;
+  font-size: 14px;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin: 0;
+}
+.other__news .block__title__travel span {
+  left: -1%;
+  background-color: #4258fe;
+  color: #ffffff;
+  line-height: 38px;
+  padding: 10px 15px;
+  top: 1px;
+  border-radius: 10px 10px 0 0px;
+  position: relative;
+}
+.other__news .block__title__lifestyle {
+  border-bottom: 2px dotted #00bdb3;
+  font-size: 14px;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin: 0;
+}
+.other__news .block__title__lifestyle span {
+  left: -1%;
+  background-color: #00bdb3;
+  color: #ffffff;
+  line-height: 38px;
+  padding: 10px 15px;
+  top: 1px;
+  border-radius: 10px 10px 0 0px;
+  position: relative;
+}
+.other__news .block__title__health {
+  border-bottom: 2px dotted #9401d3;
+  font-size: 14px;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin: 0;
+}
+.other__news .block__title__health span {
+  left: -1%;
+  background-color: #9401d3;
+  color: #ffffff;
+  line-height: 38px;
+  padding: 10px 15px;
+  top: 1px;
+  border-radius: 10px 10px 0 0px;
+  position: relative;
+}
+.other__news .news__content {
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  transform: scale(1);
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.other__news .news__content:hover {
+  transform: scale(1.1);
+}
+.other__news .news__content::before {
+  content: "";
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 10%, rgba(0, 0, 0, 0.9) 100%);
+}
+.other__news .right__img__size {
+  display: block;
+  width: 100%;
+}
+.other__news h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+.other__news .news__content__top {
+  font-family: "Poppins", sans-serif;
+  padding: 30px;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  display: block;
+}
+.other__news .news__content__top h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+.other__news .news__content__top .post__title {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.other__news .news__content__top .post__date, .other__news .news__content__top .post__view {
+  position: static;
+  line-height: 20px;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 0;
+  margin-right: 5px;
+  transition: 0.35s;
+}
+.other__news .news__content__top .post__date:hover, .other__news .news__content__top .post__view:hover {
+  background-color: #f73357;
+}
+.other__news .news__content__top .post__date a, .other__news .news__content__top .post__view a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+.other__news .news__content__top .post__date i {
+  color: #ffffff;
+}
+.other__news .news__content__top .post__view i {
+  color: #ffffff;
+}
+.other__news .post__date__travel, .other__news .post__view__travel {
+  position: static;
+  line-height: 20px;
+  text-decoration: none;
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 0;
+  margin-right: 5px;
+  transition: 0.35s;
+}
+.other__news .post__date__travel a, .other__news .post__view__travel a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+  font-weight: 600;
+  font-size: 13px;
+}
+.other__news .post__date__travel i {
+  color: #4258fe;
+}
+.other__news .post__view__travel i {
+  color: #4258fe;
+}
+.other__news .post__date__lifestyle, .other__news .post__view__lifestyle {
+  position: static;
+  line-height: 20px;
+  text-decoration: none;
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 0;
+  margin-right: 5px;
+  transition: 0.35s;
+}
+.other__news .post__date__lifestyle a, .other__news .post__view__lifestyle a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+  font-weight: 600;
+  font-size: 13px;
+}
+.other__news .post__date__lifestyle i {
+  color: #00bdb3;
+}
+.other__news .post__view__lifestyle i {
+  color: #00bdb3;
+}
+.other__news .post__date__health, .other__news .post__view__health {
+  position: static;
+  line-height: 20px;
+  text-decoration: none;
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 0;
+  margin-right: 5px;
+  transition: 0.35s;
+}
+.other__news .post__date__health a, .other__news .post__view__health a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+  font-weight: 600;
+  font-size: 13px;
+}
+.other__news .post__date__health i {
+  color: #9401d3;
+}
+.other__news .post__view__health i {
+  color: #9401d3;
+}
+.other__news .small__title {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #3d3d3d;
+  font-weight: 700;
+  transition: 0.35s;
+}
+.other__news .small__title:hover {
+  color: #f73357;
+}
+.other__news .other__news__content {
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  opacity: 1;
+  border-radius: 6px;
+  transform: scale(1);
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.other__news .other__news__content:hover {
+  transform: scale(1.1);
+  opacity: 0.85;
+}
+.other__news .news__img {
+  display: block;
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1267,4 +1497,81 @@
   border: 1px solid #eeeeee;
   padding: 15px 20px;
   border-radius: 10px;
+}
+
+.up__button {
+  display: none;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 45px;
+  bottom: 50px;
+  background: linear-gradient(to right, #FE4F70, #FFA387, #FFA387, #FE4F70);
+  overflow: hidden;
+  background-size: 200%;
+  background-position: left;
+  height: 40px;
+  font-size: 15px;
+  position: fixed;
+  line-height: 35px;
+  right: 0.5px;
+  text-align: center;
+  z-index: 50;
+  width: 45px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.up__button:hover {
+  background-position: right;
+}
+.up__button__icon {
+  position: absolute;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  top: 4px;
+  right: 11.5px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.up__button__icon:hover {
+  color: white;
+}
+
+.mySlides {
+  display: none;
+  box-shadow: 2px 7px 5px 7px rgba(136, 136, 136, 0.5);
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev__angel, .next__angel {
+  cursor: pointer;
+  position: absolute;
+  top: 15%;
+  width: auto;
+  padding: 8px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.next__angel {
+  right: 12px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev__angel:hover, .next__angel:hover {
+  opacity: 0.75;
+  background-color: #f1f1f1;
+  color: #3d3d3d;
 }/*# sourceMappingURL=index.css.map */
