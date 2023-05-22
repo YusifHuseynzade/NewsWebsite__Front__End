@@ -4,6 +4,8 @@
 @import "./_latest_news.scss";
 @import "./_technology_news.scss";
 @import "./_other_category_news.scss";
+@import "./_swipper_slider.scss";
+@import "./_news_detail.scss";
 @import "./_variables.scss";
 
 * {
@@ -11,6 +13,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 
 .add__content__area {
     position: relative;
